@@ -1,0 +1,35 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.NavBar-left {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.NavBar-left a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar-right {
+  display: flex;
+  gap: 24px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.NavBar-right a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+}

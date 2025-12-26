@@ -1,0 +1,5 @@
+.aurora-container {
+  width: 100%;
+  min-height: 400px; /* Minimum height */
+  height: auto; /* Allows it to grow if needed */
+}
