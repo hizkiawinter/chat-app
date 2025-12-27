@@ -1,19 +1,14 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Aurora from "./components/Aurora";
-import Threads from "./components/Threads";
-import ColorBends from "./components/ColorBends";
-
+import TopSection from "./components/TopSection";
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <>
+    <div className="app">
       <NavBar />
-      <div style={{ width: "100%", height: "600px", position: "relative" }}>
-        <Threads amplitude={1} distance={0} enableMouseInteraction={true} />
-      </div>
-    </>
+      <TopSection />
+    </div>
   );
 }
 
