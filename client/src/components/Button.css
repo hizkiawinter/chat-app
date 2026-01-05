@@ -8,4 +8,5 @@
 
 .register:hover {
   background: #131313;
+  cursor: pointer;
 }

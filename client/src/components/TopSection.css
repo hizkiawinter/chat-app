@@ -59,8 +59,9 @@
   }
 }
 
-@media (max-width: 480px) {
-  .tagline a {
-    font-size: 24px;
+@media (max-width: 850px) {
+  .retro-grid {
+    height: 26vh;
+    margin-top: -1.5rem;
   }
 }

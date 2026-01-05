@@ -5,7 +5,7 @@ const Tagline = () => {
     <div className="tagline">
       <a>where everyone </a>
       <a>stays connected</a>
-      <a>no barriers, no delays.</a>
+      <a></a>
     </div>
   );
 };
