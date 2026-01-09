@@ -1,12 +1,18 @@
 import React from "react";
-import "./Button.css";
 
-const Button = () => {
+import { GoogleLogin } from "@react-oauth/google";
+
+export default function Button() {
   return (
-    <button className="register" type="button">
-      click me
-    </button>
+    <div>
+      <GoogleLogin
+        onSuccess={(credentialResponse) => {
+          console.log("Google credential:", credentialResponse);
+        }}
+        onError={() => {
+          console.log("Login Failed");
+        }}
+      />
+    </div>
   );
-};
-
-export default Button;
+}
